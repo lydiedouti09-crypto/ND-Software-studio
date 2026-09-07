@@ -153,3 +153,30 @@ body {
 .animate-marquee {
   animation: marquee 28s linear infinite;
 }
+@keyframes fade-slide {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide {
+  animation: fade-slide 0.35s ease-out;
+}
+
+@keyframes step-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.animate-step-progress {
+  animation: step-progress linear forwards;
+}
