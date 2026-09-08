@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 // ⚠️ Remplacez ce numéro par le vôtre, au format international sans "+" ni espaces.
-const WHATSAPP_NUMBER = "22890000000";
+const WHATSAPP_NUMBER = "22878039522";
 const WHATSAPP_MESSAGE = "Bonjour ND Software Studio, j'aimerais discuter d'un projet.";
 
 export default function FloatingWhatsApp() {
